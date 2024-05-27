@@ -11,7 +11,7 @@ $(document).ready(function () {
         for (const amenity in objAmenities) {
             text += objAmenities[amenity] + ', ';
         }
-        text = text.slice(0, -2); // remove last comma and space
+        text = text.slice(0, -2);
         $('div.amenities h4').text(text);
     });
 
